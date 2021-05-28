@@ -2,8 +2,8 @@ from time import time
 from dataloader import PCDataLoader
 import os
 import h5py
-import os
 import random
+import pytorch3d
 from torch.utils.data import Dataset
 import numpy as np
 import pickle
@@ -13,7 +13,6 @@ import torch
 from pytorch3d.loss import chamfer_distance
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-import pytorch3d
 from torch.utils.data import Dataset
 import numpy as np
 import os
